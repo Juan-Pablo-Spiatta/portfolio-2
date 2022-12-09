@@ -64,7 +64,7 @@
         transform: translateX(0);
     }
     30%{
-        color: rgba(255, 210, 227, 0.753);
+        color: rgba(255, 210, 227, 0.7);
         transform: translateX(0);
     }
     40%{
@@ -76,7 +76,7 @@
     }
     100%{
         transform: translateX(33px);
-        color: rgba(143, 255, 177, 0.76);
+        color: rgba(143, 255, 177, 0.7);
     }
 }
 @keyframes H1-glitch {

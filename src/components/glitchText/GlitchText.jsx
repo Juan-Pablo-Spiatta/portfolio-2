@@ -10,7 +10,7 @@ function GlitchText({ children }) {
                 <h1 className={ style.name }>{children}</h1>
                 <div className={ style.glitchContainer }>
                     <h1>{children}</h1>
-                 </div>
+                </div>
             </div>
         </span>
   )

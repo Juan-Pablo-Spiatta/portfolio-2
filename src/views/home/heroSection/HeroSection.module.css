@@ -6,7 +6,7 @@
     width: 100%;
     height: 100vh;
     background-color: var(--section-bg-color);
-    box-shadow: inset 0 0 80px 45px black;
+    box-shadow: inset 0 0 300px 350px black;
 }
     .textContainer{
         text-align: center;
@@ -26,13 +26,21 @@
             margin: 0 .5rem;
         }
             .images{
+                position: relative;
+                cursor: pointer;
                 width: 40px;
+            }
+            .images{
+                filter: drop-shadow(0 0 3px var(--color-letter));
+            }
+            .images:hover{
+                filter: drop-shadow(0 0 3px var(--color-letter)) hue-rotate(150deg);
             }
 
 .scanlines {
     overflow: hidden;
     mix-blend-mode: difference;
-  }
+}
   
   .scanlines::before {
     content: "";
